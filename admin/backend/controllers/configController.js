@@ -30,7 +30,7 @@ exports.getConfig = async (req, res) => {
     // Create default config if none exists
     if (!botConfig) {
       botConfig = new BotConfig({
-        name: 'MemeVault Bot',
+        name: 'MemrrBot Bot',
         token: process.env.BOT_TOKEN,
         ownerId: process.env.BOT_OWNER_ID,
         settings: {

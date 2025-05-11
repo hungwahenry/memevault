@@ -24,7 +24,7 @@ function registerSetupCommands(bot) {
       });
       
       if (adminGroups.length === 0) {
-        return ctx.reply('You are not an admin of any groups with MemeVault.');
+        return ctx.reply('You are not an admin of any groups with MemrrBot.');
       }
       
       // Get all groups IDs where the user is admin

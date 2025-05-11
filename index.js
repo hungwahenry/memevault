@@ -31,7 +31,7 @@ const {
 
 // Middlewares
 const auth = require('./middlewares/auth');
-const createRateLimiter = require('./middlewares/ratelimiter');
+const createRateLimiter = require('./middlewares/rateLimiter');
 const userTracker = require('./middlewares/userTracker');
 
 // Models
@@ -266,7 +266,7 @@ async function startBot() {
 
     // 6. Launch the bot
     await bot.launch();
-    logger.info(`MemeVault bot is running! Polling started.`);
+    logger.info(`MemrrBot bot is running! Polling started.`);
 
     // 7. Initial checks and scheduled tasks
     const pendingChallenges = await Challenge.find({

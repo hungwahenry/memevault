@@ -159,7 +159,7 @@ function registerChallengeCommands(bot) {
             adminIds: userId
         });
         if (adminGroups.length === 0) {
-            return ctx.reply('You are not an admin of any groups with MemeVault.');
+            return ctx.reply('You are not an admin of any groups with MemrrBot.');
         }
         // Get all groups IDs where the user is admin
         const groupIds = adminGroups.map(group => group.groupId);

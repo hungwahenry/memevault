@@ -228,7 +228,7 @@ function registerUserCommands(bot) {
       
       // Regular start command
       await ctx.reply(
-        'Welcome to MemeVault! 🎭\n\n' +
+        'Welcome to MemrrBot! 🎭\n\n' +
         'I help crypto communities run meme contests with real prizes.\n\n' +
         'To use me, add me to a group and run the /setup command.'
       );
@@ -239,7 +239,7 @@ function registerUserCommands(bot) {
     const isGroup = ctx.chat.type === 'group' || ctx.chat.type === 'supergroup';
     const isAdmin = ctx.state.group?.adminIds?.includes(ctx.from.id.toString());
     
-    let helpMessage = '🎭 MemeVault Bot Commands:\n\n';
+    let helpMessage = '🎭 MemrrBot Bot Commands:\n\n';
     
     if (isGroup) {
       if (isAdmin) {

@@ -35,7 +35,7 @@ const setupScene = new Scenes.WizardScene(
         }
         
         // Show progress message
-        const progressMsg = await ctx.reply('🔄 Setting up MemeVault...');
+        const progressMsg = await ctx.reply('🔄 Setting up MemrrBot...');
         
         if (!group) {
           group = new Group({
@@ -80,7 +80,7 @@ const setupScene = new Scenes.WizardScene(
         }
         
         await ctx.reply(
-          '🎭 *Welcome to MemeVault!* 🎭\n\n' +
+          '🎭 *Welcome to MemrrBot!* 🎭\n\n' +
           'This bot will help you organize meme contests in your group with crypto prizes.\n\n' +
           'Would you like to add more admins who can create challenges?',
           {
