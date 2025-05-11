@@ -1,0 +1,39 @@
+{
+    "name": "memevault-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for crypto meme challenges and competitions",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODE_ENV=production node index.js",
+        "dev": "NODE_ENV=development nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "crypto",
+        "meme",
+        "challenge",
+        "solana",
+        "ethereum"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "*",
+        "bcrypt": "^5.1.1",
+        "date-fns": "^4.1.0",
+        "dotenv": "*",
+        "ioredis": "*",
+        "mongoose": "*",
+        "telegraf": "*",
+        "telegraf-session-mongodb": "^2.0.2",
+        "winston": "*"
+    },
+    "devDependencies": {
+        "nodemon": "*"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
